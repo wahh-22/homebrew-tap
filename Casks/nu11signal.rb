@@ -1,6 +1,6 @@
 cask "nu11signal" do
-  version "0.2.1"
-  sha256 "36cfb473f47168b8ba8cfdb5ef0a63af82f3d1a54b419193977e296982f0d76e"
+  version "0.3.0"
+  sha256 "36cd08bdd10a30b18c87884a56c24499c64ae5daca41edd072c150bf9c1f3174"
 
   url "https://github.com/wahh-22/nu11signal/releases/download/v#{version}/nu11signal-#{version}-macos-universal.tar.gz"
   name "Nu11Signal"
@@ -8,6 +8,9 @@ cask "nu11signal" do
   homepage "https://github.com/wahh-22/nu11signal"
 
   depends_on macos: ">= :sonoma"
+  # Kode Mono is the font the UI is designed with; the terminal draws the
+  # UI, so it only shows once the terminal is set to use it (see caveats).
+  depends_on cask: "font-kode-mono"
 
   binary "nu11signal-#{version}/bin/nu11signal"
 
@@ -15,5 +18,9 @@ cask "nu11signal" do
     Nu11Signal requires an Apple Music subscription.
     The first launch asks for access to Apple Music; if it was denied, enable
     Nu11SignalHelper in System Settings > Privacy & Security > Media & Apple Music.
+
+    The Kode Mono font was installed for the cyberpunk look. Your terminal
+    draws the UI with its own font: set it to "Kode Mono" in the terminal's
+    settings to use it (Nu11Signal works with any monospaced font).
   EOS
 end
