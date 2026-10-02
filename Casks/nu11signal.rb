@@ -1,6 +1,6 @@
 cask "nu11signal" do
-  version "0.5.1"
-  sha256 "19b42ee8d5360ef74e5c0e8c1798720ea0fa195318b478db494cb4a884f66cb8"
+  version "0.5.2"
+  sha256 "bf91f29e79629a349f89b3bc6da02ea7753f3248d65af9f61d014396c5cb5604"
 
   url "https://github.com/wahh-22/nu11signal/releases/download/v#{version}/nu11signal-#{version}-macos-universal.tar.gz"
   name "Nu11Signal"
