@@ -1,10 +1,10 @@
 class Nu11signal < Formula
-  desc "Neon terminal radio for Apple Music and local music files"
+  desc "Terminal-native music player for Apple Music and local files"
   homepage "https://github.com/wahh-22/nu11signal"
   # The macOS universal archive; on_linux replaces url and sha256 per
   # architecture (a url inside on_macos is rejected by brew style).
-  url "https://github.com/wahh-22/nu11signal/releases/download/v0.7.0/nu11signal-0.7.0-macos-universal.tar.gz"
-  sha256 "c883b5b8b4ea1e46ecfb5270d39dad271369ff34e247e85f4ed481113e0f7e3a"
+  url "https://github.com/wahh-22/nu11signal/releases/download/v0.7.1/nu11signal-0.7.1-macos-universal.tar.gz"
+  sha256 "18ec4c6d4b2af67d1fd5ddeeaf3a7ab89455f0f04a97998bf0b004c10b051b57"
   license "MIT"
 
   on_macos do
@@ -13,12 +13,12 @@ class Nu11signal < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/wahh-22/nu11signal/releases/download/v0.7.0/nu11signal-0.7.0-linux-amd64.tar.gz"
-      sha256 "a965332fe756ea508512cfe4a91cc98db3371e491ac595bf4810edda0a28fdb7"
+      url "https://github.com/wahh-22/nu11signal/releases/download/v0.7.1/nu11signal-0.7.1-linux-amd64.tar.gz"
+      sha256 "a2af2ab85bf65f6427963c209580a2fe6866241a91fde725c3fe344bf5a1dc56"
     end
     on_arm do
-      url "https://github.com/wahh-22/nu11signal/releases/download/v0.7.0/nu11signal-0.7.0-linux-arm64.tar.gz"
-      sha256 "6cacb5ebb95a5e75c1fe4806839d57e38d24df8be803d6b11109231f7ff64c5e"
+      url "https://github.com/wahh-22/nu11signal/releases/download/v0.7.1/nu11signal-0.7.1-linux-arm64.tar.gz"
+      sha256 "fb8ddd8a7c321035b95cdf233ed1b86db705535b172ec3fece2e495bb688593b"
     end
   end
 
