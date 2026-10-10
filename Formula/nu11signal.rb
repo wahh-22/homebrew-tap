@@ -3,8 +3,8 @@ class Nu11signal < Formula
   homepage "https://github.com/wahh-22/nu11signal"
   # The macOS universal archive; on_linux replaces url and sha256 per
   # architecture (a url inside on_macos is rejected by brew style).
-  url "https://github.com/wahh-22/nu11signal/releases/download/v0.7.2/nu11signal-0.7.2-macos-universal.tar.gz"
-  sha256 "36e4f9ab553432455e79553bf01e692431fbfabf16ec7fc03dbe9678c2ebe521"
+  url "https://github.com/wahh-22/nu11signal/releases/download/v0.8.0/nu11signal-0.8.0-macos-universal.tar.gz"
+  sha256 "9a9648b50de3641b6076246ed5102fb91c5eeb6e12a2332d0310cf5c1801f2e6"
   license "MIT"
 
   on_macos do
@@ -13,12 +13,12 @@ class Nu11signal < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/wahh-22/nu11signal/releases/download/v0.7.2/nu11signal-0.7.2-linux-amd64.tar.gz"
-      sha256 "3140dc458de6f447721c72294c68ff7aa00e2e7b3cbe6c847d7f0b6ed3c6e683"
+      url "https://github.com/wahh-22/nu11signal/releases/download/v0.8.0/nu11signal-0.8.0-linux-amd64.tar.gz"
+      sha256 "02af6e50e3e31f3414d89b1d93bbfcce57ea42f43a2f960b71599534d07f5a7f"
     end
     on_arm do
-      url "https://github.com/wahh-22/nu11signal/releases/download/v0.7.2/nu11signal-0.7.2-linux-arm64.tar.gz"
-      sha256 "95c04b3d9710a13da6e965d7a55ece9a3fe5ef0b258d70a11c192e21a36857ed"
+      url "https://github.com/wahh-22/nu11signal/releases/download/v0.8.0/nu11signal-0.8.0-linux-arm64.tar.gz"
+      sha256 "4a9eafa025d550332c2675beccc084ae3f0422f563e6f44bf53ad7379838e146"
     end
   end
 
